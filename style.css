@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 25px;
   color: black;
   text-align: center;
@@ -48,10 +48,11 @@ h1 {
   background-color: hsl(225, 100%, 98%);
   width: 360px;
   height: 100px;
+  padding: auto;
   margin: auto;
+  margin-top: 35px;
   border-radius: 15px;
   line-height: 0em;
-  padding: auto;
 }
 .containerAnnualPlan img {
   margin-top: 25px;
@@ -95,10 +96,10 @@ p.blue {
   color: white;
   padding-top: 15px;
 }
-p.lastOne {
+p.theLastOne {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
   color: hsl(224, 23%, 55%);
-  margin-top: 60px;
+  margin-top: 40px;
 }
