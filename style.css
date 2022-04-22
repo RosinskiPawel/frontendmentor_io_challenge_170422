@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh; /*o co tu chodzi, dlaczego to centruje obrazek w pionie?*/
+  min-height: 100vh; /*o co tu chodzi, dlaczego to centruje ten kontener w pionie? jest jakiś inny uniwersalny sposob?*/
 }
 .container__card {
   width: 450px;
@@ -54,7 +54,6 @@ body {
   margin: 35px 35px 0px 35px;
   font-size: 30px;
   color: var(--color-h1);
-  /* text-align: center; */
   font-weight: 900;
 }
 
@@ -124,7 +123,12 @@ body {
   width: 360px;
   height: 50px;
   background-color: var(--bright_blue);
-  /* padding-top: 14px; co zrobić, żeby w prosty sposob (flexboxem?) wysrodkowac tekst p na tym niebieskiem przycisku? */
+  /* padding-top: 14px; co zrobić, żeby w prosty sposob (flexboxem?) wysrodkowac tekst p na tym niebieskiem przycisku? 
+  update po kilku godzinach: juz znalazem odpowiedzi, ale dlaczego ta część kodu 
+  "display: flex;
+  justify-content: center;
+  align-items: center;"
+   nie została odziedziczona po klasie .container, skoro klasa .containerButtonBlue jest umieszczona w divie container? */
   margin: 35px 45px 25px;
   border-radius: 15px;
   box-shadow: 0 10px 35px 0 var(--color-shadow);
@@ -145,7 +149,8 @@ body {
   font-weight: 700;
 }
 
-/* 
+/* starą część kodu zostawiam sobie na pamiątkę...
+
 .containerAnnualPlan img {
   margin-top: 25px;
   margin-left: 25px;
