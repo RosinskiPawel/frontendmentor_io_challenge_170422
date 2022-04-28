@@ -148,6 +148,11 @@ body {
   font-size: 14px;
   font-weight: 700;
 }
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url('pattern-background-mobile.svg');
+  }
+}
 
 /* starą część kodu zostawiam sobie na pamiątkę...
 
